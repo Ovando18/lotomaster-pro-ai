@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: dark;
+}
+
+html,
+body {
+  background: #020617;
+  color: #e2e8f0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  background-image: radial-gradient(1200px 500px at 10% -10%, rgba(16, 185, 129, 0.08), transparent 60%);
+  background-attachment: fixed;
+  font-feature-settings: "tnum" 1;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  scrollbar-width: none;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+  opacity: 0.4;
+}
